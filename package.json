@@ -1,12 +1,12 @@
 {
   "author": "Paul Serby <paul@serby.net>",
-  "name": "object-to-cvs-stream",
+  "name": "object-to-csv-stream",
   "description": "Basic mutation for a stream of well defined objects into a CSV",
   "version": "0.0.1",
   "tags": [],
   "repository": {
     "type": "git",
-    "url": "git@github.com:serby/object-to-cvs-stream"
+    "url": "git@github.com:serby/object-to-csv-stream"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
