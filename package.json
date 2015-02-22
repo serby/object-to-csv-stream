@@ -1,0 +1,37 @@
+{
+  "author": "Paul Serby <paul@serby.net>",
+  "name": "object-to-cvs-stream",
+  "description": "Basic mutation for a stream of well defined objects into a CSV",
+  "version": "0.0.1",
+  "tags": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:serby/object-to-cvs-stream"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint . --reporter=./node_modules/jshint-full-path/index.js",
+    "pretest": "npm run-script lint",
+    "test": "istanbul cover ./node_modules/.bin/_mocha -- -R spec -r should",
+    "posttest": ".istanbul check-coverage && rm -rf coverage",
+    "prepublish": "npm test && npm prune"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "istanbul": "^0.3.6",
+    "lodash.assign": "^3.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.0",
+    "jshint-full-path": "^1.1.1",
+    "lodash.assign": "^3.0.0",
+    "mocha": "^2.1.0",
+    "stream-assert": "^2.0.2"
+  }
+}
