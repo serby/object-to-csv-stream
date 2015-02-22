@@ -16,7 +16,7 @@
     "lint": "jshint . --reporter=./node_modules/jshint-full-path/index.js",
     "pretest": "npm run-script lint",
     "test": "istanbul cover ./node_modules/.bin/_mocha -- -R spec",
-    "posttest": ".istanbul check-coverage && rm -rf coverage",
+    "posttest": "istanbul check-coverage && rm -rf coverage",
     "prepublish": "npm test && npm prune"
   },
   "engines": {
