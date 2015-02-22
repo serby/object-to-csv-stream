@@ -2,7 +2,7 @@
   "author": "Paul Serby <paul@serby.net>",
   "name": "object-to-csv-stream",
   "description": "Basic mutation for a stream of well defined objects into a CSV",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "tags": [],
   "repository": {
     "type": "git",
