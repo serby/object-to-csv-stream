@@ -2,7 +2,7 @@
 
 Basic mutation for a stream of well defined objects into a CSV.
 
-[![build status](https://secure.travis-ci.org/serby/object-to-csv-stream.png)](http://travis-ci.org/serby/object-to-csv-stream)
+[![build status](https://secure.travis-ci.org/serby/object-to-csv-stream.png)](http://travis-ci.org/serby/object-to-csv-stream) [![Greenkeeper badge](https://badges.greenkeeper.io/serby/object-to-csv-stream.svg)](https://greenkeeper.io/)
 
 ## Installation
 
